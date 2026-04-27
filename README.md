@@ -2,7 +2,7 @@
 
 A collection of 10 applied machine learning notebooks covering classification, regression, anomaly detection, and data analysis. Each notebook walks through a real dataset end-to-end: loading, cleaning, exploring, modeling, and evaluating.
 
-Built during my Computer Science studies at New Cairo Academy using Python, Scikit-learn, Pandas, and Matplotlib.
+Built during using Python, Scikit-learn, Pandas, and Matplotlib.
 
 ---
 
