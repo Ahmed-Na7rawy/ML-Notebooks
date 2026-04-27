@@ -1,97 +1,73 @@
-# 🧠 Machine Learning Notebooks Collection
+# Machine Learning Notebooks
 
-A comprehensive collection of **25+ Jupyter notebooks** covering core Machine Learning concepts, from data exploration to advanced classification and ensemble methods. Built as part of my ML learning journey during my Computer Science studies at New Cairo Academy.
+A collection of 10 applied machine learning notebooks covering classification, regression, anomaly detection, and data analysis. Each notebook walks through a real dataset end-to-end: loading, cleaning, exploring, modeling, and evaluating.
 
----
-
-## 📂 Notebooks Overview
-
-### 🔢 Foundations & Data Libraries
-| Notebook | Description |
-|----------|-------------|
-| `numpy.ipynb` | NumPy fundamentals — arrays, operations, broadcasting |
-| `numpy2.ipynb` | Advanced NumPy — linear algebra, random, reshaping |
-| `pandas.ipynb` | Pandas deep-dive — DataFrames, filtering, grouping, merging |
-| `matplotlip.ipynb` | Data visualization with Matplotlib & Seaborn |
-
-### 🤖 Classification Algorithms
-| Notebook | Description |
-|----------|-------------|
-| `classification.ipynb` | Multi-algorithm classification comparison |
-| `classification knn.ipynb` | K-Nearest Neighbors in depth |
-| `classification_task.ipynb` | Classification task with evaluation metrics |
-| `knn.ipynb` | KNN from scratch + Scikit-learn |
-| `NaiveBase.ipynb` | Naive Bayes classifier implementation |
-| `svm_SVC.ipynb` | Support Vector Machine (SVC) with kernel tricks |
-| `DT.ipynb` | Decision Tree classifier & visualizations |
-| `apple_dt.ipynb` | Decision Tree on Apple Quality dataset |
-
-### 📊 Regression & Prediction
-| Notebook | Description |
-|----------|-------------|
-| `fifa19_SVR.ipynb` | FIFA 19 player value prediction using SVR |
-| `multimodel.ipynb` | Multi-model regression comparison |
-| `taxi.ipynb` | Taxi fare prediction — feature engineering & modeling |
-| `taxi2.ipynb` | Taxi fare prediction — advanced techniques |
-
-### 🔬 Advanced ML Techniques
-| Notebook | Description |
-|----------|-------------|
-| `ensimble.ipynb` | Ensemble methods — Bagging, Boosting, Stacking |
-| `anomally.ipynb` | Anomaly detection techniques |
-| `churn.ipynb` | Customer churn prediction with EDA |
-| `shopping.ipynb` | Shopping behavior analysis & prediction |
-| `persistence.ipynb` | Model persistence — saving & loading models |
-
-### 📈 Data Analysis Projects
-| Notebook | Description |
-|----------|-------------|
-| `Gaming_Academic_Performance.ipynb` | Impact of gaming on academic performance — full EDA & modeling |
-| `1.ipynb` | Exploratory data analysis practice |
-| `2.ipynb` | Data preprocessing & feature engineering |
-| `Task1.ipynb` | ML task assignment |
+Built during my Computer Science studies at New Cairo Academy using Python, Scikit-learn, Pandas, and Matplotlib.
 
 ---
 
-## 🛠 Tech Stack
+## Notebooks
 
-- **Python 3.x**
-- **Scikit-learn** — Classification, Regression, Clustering
-- **Pandas & NumPy** — Data manipulation
-- **Matplotlib & Seaborn** — Visualization
-- **Jupyter Notebook** — Interactive development
+### Classification
 
-## 📝 Key Topics Covered
+| Notebook | What it does |
+|----------|-------------|
+| `breast_cancer_knn_classification.ipynb` | Diagnoses breast cancer from cell measurements using K-Nearest Neighbors with pipeline preprocessing |
+| `diabetes_svm_prediction.ipynb` | Predicts diabetes risk from health metrics using Support Vector Classification with kernel tuning |
+| `heart_disease_naive_bayes.ipynb` | Identifies heart disease presence from clinical data using Gaussian Naive Bayes |
+| `apple_quality_decision_tree.ipynb` | Classifies apple quality from physical properties using Decision Trees |
+| `customer_churn_prediction.ipynb` | Predicts which bank customers will leave using Logistic Regression and Random Forest |
+| `shopping_behavior_prediction.ipynb` | Forecasts customer purchasing patterns from shopping behavior data |
 
-- Supervised Learning (Classification & Regression)
-- Unsupervised Learning (Anomaly Detection)
-- Ensemble Methods (Random Forest, Gradient Boosting, XGBoost)
-- Feature Engineering & Selection
-- Model Evaluation (Confusion Matrix, ROC-AUC, Cross-Validation)
-- Hyperparameter Tuning
-- Model Persistence & Deployment
+### Regression
+
+| Notebook | What it does |
+|----------|-------------|
+| `fifa19_player_value_prediction.ipynb` | Estimates FIFA 19 player market values using Support Vector Regression |
+| `taxi_fare_prediction.ipynb` | Predicts taxi trip fares from route and trip metadata using Linear Regression and tree models |
+
+### Anomaly Detection
+
+| Notebook | What it does |
+|----------|-------------|
+| `credit_card_anomaly_detection.ipynb` | Detects fraudulent credit card transactions using One-Class SVM on highly imbalanced data |
+
+### Full Analysis Projects
+
+| Notebook | What it does |
+|----------|-------------|
+| `Gaming_Academic_Performance.ipynb` | Full exploratory analysis investigating how gaming habits affect academic performance, with statistical testing and visualization |
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
+
+- Python 3.x
+- Scikit-learn — classification, regression, clustering
+- Pandas and NumPy — data manipulation
+- Matplotlib and Seaborn — visualization
+- Jupyter Notebook
+
+## What's Covered
+
+- Supervised learning (classification and regression)
+- Unsupervised learning (anomaly detection)
+- Feature engineering and selection
+- Model evaluation (confusion matrix, ROC-AUC, cross-validation)
+- Hyperparameter tuning
+- Data preprocessing pipelines
+
+---
+
+## Getting Started
 
 ```bash
-# Clone the repository
 git clone https://github.com/Ahmed-Na7rawy/ML-Notebooks.git
 cd ML-Notebooks
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Launch Jupyter
 jupyter notebook
 ```
 
-## 📄 License
-
-This project is for educational purposes. Feel free to use and learn from these notebooks.
-
 ---
 
-**Author:** Ahmed Alnahrawy  
-**GitHub:** [@Ahmed-Na7rawy](https://github.com/Ahmed-Na7rawy)
+Ahmed Alnahrawy — [@Ahmed-Na7rawy](https://github.com/Ahmed-Na7rawy)
